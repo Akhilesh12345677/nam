@@ -12,7 +12,7 @@ conn = sqlite3.connect("mydatabase.db")
 # Table name: users (you can change it)
 df.to_sql("users", conn, if_exists="replace", index=False)
 
-print("Data successfully saved to SQLite database!")
+print("Data successfully saved to SQLite !")
 
 # 4️⃣ Close connection
 conn.close()
